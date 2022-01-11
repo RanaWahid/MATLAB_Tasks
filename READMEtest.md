@@ -111,14 +111,15 @@ Since this is a very complex algorithm, we have a computer to execute this algor
 
 ### CODE IMPLEMENTATION
 
-* In order to run this code, pygame library needs to be installed. To install this, open command prompt and type "pip install pygame".
+<p> 
+We have implemented just one class "Es42_tictactoe.java".
+This is the Pseudo code of the implemented methods:
 
-* Run the complete code TicTacToeGame.ipynb.
+**clearBoard**
+    Looping over rows and columns and inserting blank string.
+**initStick**
+    Looping over connected controllers and refrencing connected gamepads.
 
-* After running the code, following window will be displayed on the screen (Empty Board): 
+    
 
-<p align="center"><img src="Images/EmptyBoard_highlightedButtons.png" width="280" height="280" /></p>
-
-* The game contains two buttons - vs Human and vs AI, so that we can choose our opponent. Once we click button, start playing game by clicking on the game board. Since we play first, we will be defined as Player X. 
-
-* Once the game is finished, the message will be displayed on the game screen with either the winner name (X or O) or Draw game.
+</p>
