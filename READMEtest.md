@@ -10,8 +10,8 @@ Tic Tac Toe is a two-player game. In this game, there is a board with 3 x 3 squa
 The two players take turns putting marks on a 3x3 board. The goal of Tic Tac Toe game is to be one of the players to get three same symbols in a row - horizontally, vertically or diagonally on a 3 x 3 grid.  The player who first gets 3 of his/her symbols in a row wins the game, and the other loses the game. 
 
 ### GAME RULES:
-1.  a. The 2 players in Multi-Player mode play use “X” and “O”.  
-       The player that gets to play first will get the "X" mark (we call him/her player X) and the player that gets to play second will get the "O" mark (we call him/her player O).
+1.<br/>  a. The 2 players in Multi-Player mode play use “X” and “O”. 
+       The player that gets to play first will get the "X" mark (we call him/her player X) and the player that gets to play second will get the "O" mark (we call him/her player O).<br/>
     b. While in Single Player mode, the player only plays with "X" and the computer plays with "O".
        The player gets to play first with "X" and it takes turns against the computer.
 2.	A player marks any of the 3x3 squares with his mark (“X” or “O”) and their aim is to create a straight line horizontally, vertically or diagonally with two intensions:<br/>
@@ -27,17 +27,17 @@ In order to visualize the defined game rules and description, the game is shown 
 
 First the game will start with empty board.<br/>
 
-<p align="center"><img src="start.png" width="280" height="280" /></p>
+<p align="center"><img src="start.jpg" width="280" height="280" /></p>
 
 Then Player X will make his/her first move by playing mark “X” on this board. Then Player O will make his/her move by playing mark “O” on this board. This will keep on continuing until the board is full of marks.
 
 Then the program will check if Player X or Player O won and that scenario will be follows: (could be vertically, horizontally or diagonally).  
 
-<p align="center"><img src="xwin.png" width="400" height="200" /></p>
+<p align="center"><img src="xwin.jpg" width="400" height="200" /></p>
 
 If none of the players win, the program will check for draw.
 
-<p align="center"><img src="draw.png" width="280" height="280" /></p>
+<p align="center"><img src="draw.jpg" width="280" height="280" /></p>
 
 All this decision making is done by using Minimax algorithm.
 
