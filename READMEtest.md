@@ -10,20 +10,19 @@ Tic Tac Toe is a two-player game. In this game, there is a board with 3 x 3 squa
 The two players take turns putting marks on a 3x3 board. The goal of Tic Tac Toe game is to be one of the players to get three same symbols in a row - horizontally, vertically or diagonally on a 3 x 3 grid.  The player who first gets 3 of his/her symbols in a row wins the game, and the other loses the game. 
 
 ### GAME RULES:
-1.<br/> <p>
-&emsp a. The 2 players in Multi-Player mode play use “X” and “O”. 
+1. <br/> <p>
+ a. The 2 players in Multi-Player mode play use “X” and “O”. 
        The player that gets to play first will get the "X" mark (we call him/her player X) and the player that gets to play second will get the "O" mark (we call him/her player O).<br/> </p>
 
   <p>
- &emsp b. While in Single Player mode, the player only plays with "X" and the computer plays with "O".
-       The player gets to play first with "X" and it takes turns against the computer.<br/> </p>
-
+  b. While in Single Player mode, the player only plays with "X" and the computer plays with "O".
+       The player gets to play first with "X" and it takes turns against the computer.</p> <br/> 
 2.	A player marks any of the 3x3 squares with his mark (“X” or “O”) and their aim is to create a straight line horizontally, vertically or diagonally with two intensions:<br/>
   <p>
- &emsp a. One of the players gets three of his/her marks in a row (vertically, horizontally, or diagonally) i.e. that player wins the game.<br/> </p>
+  a. One of the players gets three of his/her marks in a row (vertically, horizontally, or diagonally) i.e. that player wins the game.<br/> </p>
 
   <p>
-  &emsp b. If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a draw/tie. </p>
+   b. If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a draw/tie. </p>
 
   
 ### IMPLEMENTATION PLAN:
