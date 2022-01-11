@@ -112,14 +112,17 @@ Since this is a very complex algorithm, we have a computer to execute this algor
 ### CODE IMPLEMENTATION
 
 <p> 
-We have implemented just one class "Es42_tictactoe.java".
-This is the Pseudo code of the implemented methods:
+We have implemented just one major class "Es42_tictactoe.java".
+This is the Pseudo code of the major implemented methods:
 
 **clearBoard**
-    Looping over rows and columns and inserting blank string.
+    Looping over rows and columns and inserting blank string.<br/>
 **initStick**
-    Looping over connected controllers and refrencing connected gamepads.
-
-    
-
+    Looping over connected controllers and refrencing connected gamepads.<br/>
+**init**
+    Setting roots' nodes and running gamepads listener thread.<br/>
+**start**
+    Setting and showing stage icon, title and scene and making it full screen.<br/>
+**GamePad Thread**
+    If any button is pressed, it checks button name, value and current root ID. Then, takes the appropriate action.<br/>
 </p>
